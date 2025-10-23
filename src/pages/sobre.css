@@ -1,0 +1,38 @@
+.page-container{
+    background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+}
+
+.h2{
+    color: #1976d2;
+    font-size: 25px;
+}
+
+ul {
+  margin: 0;    /* remove a margem externa */
+  padding: 0;   /* remove o recuo interno */
+  list-style: none; /* remove os marcadores, se quiser */
+}
+
+li {
+  margin: 0;    /* remove qualquer margem dos itens */
+  padding: 0;   /* remove qualquer padding dos itens */
+}
+img{
+    max-width: 400px;
+}
+
+.comeco{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+.sobre{
+    max-width: 500px;
+    align-self: center;
+}
+
+.objetivo{
+    margin-top: 50px;
+}

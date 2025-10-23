@@ -1,0 +1,85 @@
+.cadastro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+
+.cadastro-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+.cadastro-card h2 {
+  color: #1976d2;
+  margin-bottom: 10px;
+}
+
+.descricao {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 4px rgba(25, 118, 210, 0.3);
+}
+
+button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #125fa3;
+}
+
+.info-extra {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #666;
+}
+
+.link-whatsapp {
+  display: inline-block;
+  margin-top: 10px;
+  color: #25d366;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.link-whatsapp:hover {
+  color: #128c7e;
+}

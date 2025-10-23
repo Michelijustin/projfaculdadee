@@ -1,0 +1,22 @@
+.header {
+  background: #6200ea;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header nav a {
+  color: white;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.header nav a:hover{
+  color: rgba(255, 255, 255, 0.826);
+  display: inline-block;
+  transform: translate(1px, -1px); /* 20px à direita e 10px pra cima */
+  transition: 0.5s;
+}
