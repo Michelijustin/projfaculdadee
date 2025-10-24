@@ -1,5 +1,7 @@
 import React from "react";
 import "./servicos.css";
+import unha1 from '../img/unha1.jpg'
+import unha2 from '../img/unha2.jpg'
 
 function Servicos() {
   const servicosFicticios = [
@@ -7,7 +9,7 @@ function Servicos() {
       nome: "Juliana",
       servico: "Manicure",
       contato: "5551999639270",
-      imagens: ["/img/manicure1.jpg", "/img/manicure2.jpg"], // 2 imagens
+      imagens: [unha1, unha2], // 2 imagens
     },
     {
       nome: "Rodrigo Magnus Lopes",
